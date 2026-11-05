@@ -430,18 +430,6 @@
       "identical_to_source": true
     },
     {
-      "path": "mobile/SmartSchoolbagApp/ios/Runner/GeneratedPluginRegistrant.h",
-      "sha256": "a5f88cc6415d2e639d2cb549348b84e02a7fdd0261603b0063abef6fa11f075a",
-      "source": "outputs/SmartSchoolbagApp/ios/Runner/GeneratedPluginRegistrant.h",
-      "identical_to_source": true
-    },
-    {
-      "path": "mobile/SmartSchoolbagApp/ios/Runner/GeneratedPluginRegistrant.m",
-      "sha256": "7ed2ce935a0d3e3e1daf95742c3962d3e0cc88d84568e72975eff717ea04d789",
-      "source": "outputs/SmartSchoolbagApp/ios/Runner/GeneratedPluginRegistrant.m",
-      "identical_to_source": true
-    },
-    {
       "path": "mobile/SmartSchoolbagApp/ios/Runner/Info.plist",
       "sha256": "01af08324b2a050dfa94dc9d45e7008d475f0a59211b4a52d2d2be2a31b19721",
       "source": "outputs/SmartSchoolbagApp/ios/Runner/Info.plist",
