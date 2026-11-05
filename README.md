@@ -12,6 +12,8 @@
 4. 修改同步時，同時閱讀 [協定](docs/PROTOCOL.md) 與雙端實作。
 5. 按 [驗收清單](docs/TESTING.md) 記錄真實結果；禁止用編譯成功代替硬體驗收。
 
+本次交接的分析、測試、建置與公開下載驗證見 [驗證紀錄](docs/VALIDATION.md)。
+
 ## 專案結構
 
 ```text
@@ -20,7 +22,7 @@ mobile/SmartSchoolbagApp/    Flutter App、Android/iOS 殼層與資料邏輯測�
 scripts/                    可攜式建置、檔案完整性檢查與字庫產生工具
 docs/                       接線、協定、狀態、需求、驗收與 AI 交接
 docs/images/                修正過的兩張 PNG、原始製作實照與外殼建模圖片
-SOURCE-MANIFEST.json        來源路徑與 SHA-256；確認交接沒有漏檔或改動原始程式
+SOURCE-MANIFEST.json        來源路徑與 SHA-256；記錄基線及公開版移除密碼的差異
 ```
 
 主要來源：`firmware/EPaperTest/EPaperTestApp.h`、`PanelConfig.h`、`GpsSupport.h`；手機主要邏輯目前集中於 `mobile/SmartSchoolbagApp/lib/main.dart`，Android Wi-Fi 平台通道在 `android/app/src/main/kotlin/tw/smartschoolbag/smart_schoolbag_app/MainActivity.kt`。
@@ -47,4 +49,6 @@ SOURCE-MANIFEST.json        來源路徑與 SHA-256；確認交接沒有漏檔�
 本庫保留可編譯的完整目前來源、依賴鎖檔、第三方來源與圖片，不收錄過往每一版 APK／BIN、工具快取、個人位置日誌、手機資料備份、簽章金鑰或本機絕對路徑設定。建置可重新產生 APK 和韌體。iOS 專案殼層已收錄，但未在 macOS/Xcode 驗證。
 
 第三方授權見 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。本次未替使用者擅自選定整體開源授權；公開程式儲存庫不等同授權公開再散布。
+
+
 

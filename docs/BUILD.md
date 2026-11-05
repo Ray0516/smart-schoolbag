@@ -4,6 +4,8 @@
 
 ## 韌體
 
+先複製 firmware/EPaperTest/LocalWifiConfig.example.h 為 LocalWifiConfig.h，設定自己的密碼（詳細步驟見本頁末尾），再編譯。
+
 已知工具鏈：Arduino ESP32 core **3.3.7**，GxEPD2 **1.6.9**，Adafruit GFX Library **1.12.6**，Adafruit BusIO **1.17.4**。MFRC522 **1.4.12** 與 TinyGPSPlus **1.1.0** 已隨 src 收錄，不要再用別版覆蓋。Arduino CLI 需可從 PATH 找到，或腳本 -ArduinoCli 指定路徑。
 
 ```powershell
@@ -58,3 +60,4 @@ Copy-Item firmware/EPaperTest/LocalWifiConfig.example.h firmware/EPaperTest/Loca
 編輯 LocalWifiConfig.h，將 SCHOOLBAG_WIFI_PASSWORD 設為自己的 8～63 bytes 密碼，再執行建置。此檔被 .gitignore 排除，請私下提供給裝置使用者。手機只提示向擁有者取得密碼，不硬編碼密碼。燒錄新版本後，手機須在系統 Wi-Fi 設定使用新密碼重新加入。單純上傳 GitHub 不會改變現有實體裝置的密碼。
 
 本次交接驗證的 Flutter 精確版本為 3.41.4、Dart 3.11.1。不需要重新產生既有中文字庫；產生工具依賴 Windows 字型和 System.Drawing，公開再散布字形的權利需另外確認。
+

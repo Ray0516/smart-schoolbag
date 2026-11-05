@@ -16,7 +16,7 @@ SPI 共用給 EPD 和 RC522；不要讓網路回呼直接佔用共用 SPI。BLE 
 
 ## 手機結構
 
-main.dart 集中資料類別 BagItem/Lesson/CalendarEvent、BagStore、BagBle（歷史名稱，現也管理 Wi-Fi）、同步與各頁面。先用 rg 找定義再改，不要只憑名稱以為是 BLE 專用。MainActivity.kt 是 Android 平台整合；Android 清單和網路設定必須一起保留。UI 簡約、繁體中文，主要分頁為今日、課表、記事、更多。
+main.dart 集中資料類別 BagItem/Lesson/CalendarEntry、BagStore、BagBle（歷史名稱，現也管理 Wi-Fi）、同步與各頁面。先用 rg 找定義再改，不要只憑名稱以為是 BLE 專用。MainActivity.kt 是 Android 平台整合；Android 清單和網路設定必須一起保留。UI 簡約、繁體中文，主要分頁為今日、課表、記事、更多。
 
 BagItem 存 name/tag/分類/完成星期等資料。dayItemOverrides 保存每星期從物品資料庫勾選的清單；明確空清單必須保持空，不能回退課表推導。沒有 override 才由課程／既有規則／日期事件推導。重新命名與刪除要更新所有引用。七日完成狀態不可互相覆蓋。
 
@@ -53,3 +53,4 @@ BagItem 存 name/tag/分類/完成星期等資料。dayItemOverrides 保存每�
 ## 公開交接整理時的有限變更
 
 原有硬體來源維持 v1.5.0 行為。公開版僅把硬編碼 AP 密碼改為未追蹤的 LocalWifiConfig.h，從序列啟動日誌移除密碼，手機改為提示向擁有者取得密碼，並補齊一個 Dart if 的大括號以通過分析。這些差異記在 SOURCE-MANIFEST.json；本機原工作來源未因此被覆蓋，也未燒錄現有設備。交接包不含現有裝置密碼。
+

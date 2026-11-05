@@ -4,7 +4,7 @@
 
 主要端點：GET /status（純文字狀態快照）、POST /control（UTF-8 text/plain、LF 分行、TAB 分欄）。原型 AP 未提供額外 HTTP 認證，密碼由裝置擁有者私下設定，僅適合可信近距離環境。
 
-TIME、PLAN、PLAN_DAY、DAYREQ、DAYCHECK 的解析欄位與 ACK 請查 EPaperTestApp.h handleBleCommand；手機 _syncWifi 是傳送順序範本。不要自行猜遮罩位元或日期單位，先比對雙端。修改協定時兩端一起測試，並更新本文件。
+TIME、PLAN、PLAN_DAY、DAYREQ、DAYCHECK 的解析欄位與 ACK 請查 EPaperTestApp.h handleBleLine；手機 _syncWifi 是傳送順序範本。不要自行猜遮罩位元或日期單位，先比對雙端。修改協定時兩端一起測試，並更新本文件。
 
 以下為既有逐行協定與相容欄位資料：
 
@@ -86,3 +86,4 @@ DAYCHECK<TAB>1<TAB>1<LF>
 ```
 
 此遮罩例表示星期一物品 0、1 要帶，物品 0 已完成。實際狀態修改需測試資料，不能直接覆蓋使用者既有資料。
+
