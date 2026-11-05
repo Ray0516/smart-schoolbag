@@ -1,0 +1,16 @@
+{
+  "folders": [
+    {
+      "name": "ESP32 韌體",
+      "path": "firmware/EPaperTest"
+    },
+    {
+      "name": "Flutter 手機 App",
+      "path": "mobile/SmartSchoolbagApp"
+    },
+    {
+      "name": "交接文件",
+      "path": "docs"
+    }
+  ]
+}

@@ -1,0 +1,544 @@
+{
+  "baseline": "v1.5.0",
+  "files": [
+    {
+      "path": "firmware/EPaperTest/ChineseGlyphs.h",
+      "sha256": "b84055f54b79bd25246b02852d64009423c416b0649ce9d0c4b5e846388f478c",
+      "source": "outputs/EPaperTest/ChineseGlyphs.h",
+      "identical_to_source": true
+    },
+    {
+      "path": "firmware/EPaperTest/ChineseText.h",
+      "sha256": "e3863535f01716bf6eee3ffa862f77dab65d7c03e45d89e2e056a4e2b72886f2",
+      "source": "outputs/EPaperTest/ChineseText.h",
+      "identical_to_source": true
+    },
+    {
+      "path": "firmware/EPaperTest/EPaperTest.ino",
+      "sha256": "c29780bbb3eed16c80685373771708da56cbd34754eedf962ce34dad785d9250",
+      "source": "outputs/EPaperTest/EPaperTest.ino",
+      "identical_to_source": true
+    },
+    {
+      "path": "firmware/EPaperTest/EPaperTestApp.h",
+      "sha256": "a53af106ee0774d52d80d073c86dcf2616f4a8a039f85486691f84d55ca6a693",
+      "source": "outputs/EPaperTest/EPaperTestApp.h",
+      "identical_to_source": false,
+      "original_sha256": "4b2dbbe4c107091536569fb5ca64a1418fca907a7e72fbce31d736f79a293872",
+      "change_reason": "Public handoff: remove embedded Wi-Fi password/logging; phone instructions; Dart braces lint fix."
+    },
+    {
+      "path": "firmware/EPaperTest/GpsSupport.h",
+      "sha256": "62fc107cd69ee38daa66cc9002265fa3bb2f55049627d270397afa173b8e92da",
+      "source": "outputs/EPaperTest/GpsSupport.h",
+      "identical_to_source": true
+    },
+    {
+      "path": "firmware/EPaperTest/PanelConfig.h",
+      "sha256": "1ba827b10e64d71a20dfec0c4ec9e782e721cc93731d6e7861c40d27ab954834",
+      "source": "outputs/EPaperTest/PanelConfig.h",
+      "identical_to_source": true
+    },
+    {
+      "path": "firmware/EPaperTest/RfidText.h",
+      "sha256": "bc75be023b5abf8a05d0c868b6a1e38e431cd236e63b5df46b160ae2a314222f",
+      "source": "outputs/EPaperTest/RfidText.h",
+      "identical_to_source": true
+    },
+    {
+      "path": "firmware/EPaperTest/src/MFRC522/deprecated.h",
+      "sha256": "71a0b9ba0394cba3456f2ac4036def1f80f90a1fc0ea87fc085366909c737de2",
+      "source": "outputs/EPaperTest/src/MFRC522/deprecated.h",
+      "identical_to_source": true
+    },
+    {
+      "path": "firmware/EPaperTest/src/MFRC522/MFRC522.cpp",
+      "sha256": "bcb6372c98c0ecaa5255c389d1aab846d049fb5a2771307fa38c94ca9fea26cb",
+      "source": "outputs/EPaperTest/src/MFRC522/MFRC522.cpp",
+      "identical_to_source": true
+    },
+    {
+      "path": "firmware/EPaperTest/src/MFRC522/MFRC522.h",
+      "sha256": "9a4d707696aac587bce8320584b605c83196674568b782e846178bc2721b1160",
+      "source": "outputs/EPaperTest/src/MFRC522/MFRC522.h",
+      "identical_to_source": true
+    },
+    {
+      "path": "firmware/EPaperTest/src/MFRC522/require_cpp11.h",
+      "sha256": "8699f331ace2dd84009e4e93395c7e0bb3a5d93b3fc9cb67ae4fefd7f3b78a25",
+      "source": "outputs/EPaperTest/src/MFRC522/require_cpp11.h",
+      "identical_to_source": true
+    },
+    {
+      "path": "firmware/EPaperTest/src/MFRC522/UNLICENSE",
+      "sha256": "b5065838cbac452dfc855ba6e6e031481ad2c68406f70d21ead9321374653e6c",
+      "source": "outputs/EPaperTest/src/MFRC522/UNLICENSE",
+      "identical_to_source": true
+    },
+    {
+      "path": "firmware/EPaperTest/src/MFRC522/來源說明.md",
+      "sha256": "5444a3c53a5293c32fcaddd735f1b6aec3256edbe23ee142b190e305afb38415",
+      "source": "outputs/EPaperTest/src/MFRC522/來源說明.md",
+      "identical_to_source": false,
+      "original_sha256": "9cabd3b975b4d73196f2e51022b73718383813e180db99d2721573b641d3cde8",
+      "change_reason": "Public handoff: remove embedded Wi-Fi password/logging; phone instructions; Dart braces lint fix."
+    },
+    {
+      "path": "firmware/EPaperTest/src/TinyGPSPlus/LGPL-2.1.txt",
+      "sha256": "20e50fe7aae3e56378ebf0417d9de904f55a0e61e4df315333e632a4d3555d95",
+      "source": "outputs/EPaperTest/src/TinyGPSPlus/LGPL-2.1.txt",
+      "identical_to_source": true
+    },
+    {
+      "path": "firmware/EPaperTest/src/TinyGPSPlus/TinyGPS++.cpp",
+      "sha256": "6cbf9ae30441a294d592e2058257dcdef5e1fe1225b43626560ee0f7adae029e",
+      "source": "outputs/EPaperTest/src/TinyGPSPlus/TinyGPS++.cpp",
+      "identical_to_source": true
+    },
+    {
+      "path": "firmware/EPaperTest/src/TinyGPSPlus/TinyGPS++.h",
+      "sha256": "078f0d9180178f869db7798161a30bf04e4cb9b78dc8ecf0dd70ada13e023f23",
+      "source": "outputs/EPaperTest/src/TinyGPSPlus/TinyGPS++.h",
+      "identical_to_source": true
+    },
+    {
+      "path": "firmware/EPaperTest/src/TinyGPSPlus/來源說明.md",
+      "sha256": "5093c91ec2de8878b5334369601e6d30ed6027e87220d38f9ae4831832837b96",
+      "source": "outputs/EPaperTest/src/TinyGPSPlus/來源說明.md",
+      "identical_to_source": false,
+      "original_sha256": "e723a9ae9177e53e578d123fe3ba5e7c5e872d5aac06c36b4498ac2b41d03ec4",
+      "change_reason": "Public handoff: remove embedded Wi-Fi password/logging; phone instructions; Dart braces lint fix."
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/.gitignore",
+      "sha256": "1e725ca8cb4e6c2a19dc889d0cebb497d954f091aba3b08d53df20edd0a98cdb",
+      "source": "outputs/SmartSchoolbagApp/.gitignore",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/.metadata",
+      "sha256": "e10c862bb0f549dc1180061fbbe517caa1caf8ad10d168147c820a76027a2305",
+      "source": "outputs/SmartSchoolbagApp/.metadata",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/analysis_options.yaml",
+      "sha256": "f2de2b3d32409892ff6819f834aa2e7671c90f9646e888fa0f6049cffe5a369e",
+      "source": "outputs/SmartSchoolbagApp/analysis_options.yaml",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/android/.gitignore",
+      "sha256": "c9af75dbc2c8aa867476a09426c80b178c4aeed8b9393ae48503eedfa3273d71",
+      "source": "outputs/SmartSchoolbagApp/android/.gitignore",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/android/app/build.gradle.kts",
+      "sha256": "2c015a270e6a7b36a1c6002a9518a001b6070eb3b7129f589621901158a1ed70",
+      "source": "outputs/SmartSchoolbagApp/android/app/build.gradle.kts",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/android/app/src/debug/AndroidManifest.xml",
+      "sha256": "b01a4541a8144c15bc617bab7eb267c99fa1476368fbbda5a12cdbf4e316a34c",
+      "source": "outputs/SmartSchoolbagApp/android/app/src/debug/AndroidManifest.xml",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/android/app/src/main/AndroidManifest.xml",
+      "sha256": "b78665f38520ea15b915e7d8096a8fc892ddf60079e4d8563e25f404d73dbd3a",
+      "source": "outputs/SmartSchoolbagApp/android/app/src/main/AndroidManifest.xml",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/android/app/src/main/kotlin/tw/smartschoolbag/smart_schoolbag_app/MainActivity.kt",
+      "sha256": "bfb9a30d79cba7d7f26f4ac5ea02514234888a53e6cfd241e5e0ed1229812f0e",
+      "source": "outputs/SmartSchoolbagApp/android/app/src/main/kotlin/tw/smartschoolbag/smart_schoolbag_app/MainActivity.kt",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/android/app/src/main/res/drawable/launch_background.xml",
+      "sha256": "2df60e2cfbee873ce2858088cf003e6b93498f2f568476da437610467ea1a9d7",
+      "source": "outputs/SmartSchoolbagApp/android/app/src/main/res/drawable/launch_background.xml",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/android/app/src/main/res/drawable-v21/launch_background.xml",
+      "sha256": "dca312ec77de83e43ef70a825c299b51451247286c29167d62f19165750b8793",
+      "source": "outputs/SmartSchoolbagApp/android/app/src/main/res/drawable-v21/launch_background.xml",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/android/app/src/main/res/mipmap-hdpi/ic_launcher.png",
+      "sha256": "6a7c8f0d703e3682108f9662f813302236240d3f8f638bb391e32bfb96055fef",
+      "source": "outputs/SmartSchoolbagApp/android/app/src/main/res/mipmap-hdpi/ic_launcher.png",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/android/app/src/main/res/mipmap-mdpi/ic_launcher.png",
+      "sha256": "c7c0c0189145e4e32a401c61c9bdc615754b0264e7afae24e834bb81049eaf81",
+      "source": "outputs/SmartSchoolbagApp/android/app/src/main/res/mipmap-mdpi/ic_launcher.png",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png",
+      "sha256": "e14aa40904929bf313fded22cf7e7ffcbf1d1aac4263b5ef1be8bfce650397aa",
+      "source": "outputs/SmartSchoolbagApp/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png",
+      "sha256": "4d470bf22d5c17d84edc5f82516d1ba8a1c09559cd761cefb792f86d9f52b540",
+      "source": "outputs/SmartSchoolbagApp/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+      "sha256": "3c34e1f298d0c9ea3455d46db6b7759c8211a49e9ec6e44b635fc5c87dfb4180",
+      "source": "outputs/SmartSchoolbagApp/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/android/app/src/main/res/values/styles.xml",
+      "sha256": "cca15a99b59380a548bf6a890f7ca5380ee509b1f9bbb2f5f9ec3589fa25c2f7",
+      "source": "outputs/SmartSchoolbagApp/android/app/src/main/res/values/styles.xml",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/android/app/src/main/res/values-night/styles.xml",
+      "sha256": "ea763597dc1a84c8034251caee98d7753e0fbf57340ffc94677427de4b537516",
+      "source": "outputs/SmartSchoolbagApp/android/app/src/main/res/values-night/styles.xml",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/android/app/src/profile/AndroidManifest.xml",
+      "sha256": "b01a4541a8144c15bc617bab7eb267c99fa1476368fbbda5a12cdbf4e316a34c",
+      "source": "outputs/SmartSchoolbagApp/android/app/src/profile/AndroidManifest.xml",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/android/build.gradle.kts",
+      "sha256": "218f400e3fff31c9c986a2535dfb974560e1b4d33cc27b7c1fee96a2b7e44454",
+      "source": "outputs/SmartSchoolbagApp/android/build.gradle.kts",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/android/gradle/wrapper/gradle-wrapper.jar",
+      "sha256": "16caeaf66d57a0d1d2087fef6a97efa62de8da69afa5b908f40db35afc4342da",
+      "source": "outputs/SmartSchoolbagApp/android/gradle/wrapper/gradle-wrapper.jar",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/android/gradle/wrapper/gradle-wrapper.properties",
+      "sha256": "1220fdd333a881e47441de07b23f9dd1ebd35459730543ae429cf249847d91bf",
+      "source": "outputs/SmartSchoolbagApp/android/gradle/wrapper/gradle-wrapper.properties",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/android/gradle.properties",
+      "sha256": "1888df8f168eb770ca0f540b7bf84091e6b31b0d5ac55e4de518590b8f7ed8e5",
+      "source": "outputs/SmartSchoolbagApp/android/gradle.properties",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/android/gradlew",
+      "sha256": "ec56c02543666d92d9ac5ae7fcc48f88ce4de0deb8b7f9b39928ca46f68c1b2b",
+      "source": "outputs/SmartSchoolbagApp/android/gradlew",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/android/gradlew.bat",
+      "sha256": "c13c6e91b9a517783976de213d46398c661ea9e17651376d7301e839eaedcc62",
+      "source": "outputs/SmartSchoolbagApp/android/gradlew.bat",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/android/settings.gradle.kts",
+      "sha256": "4d438e37bd80ccc48ded4892c9026994cabe8cfb9c20d2947a609248495c869b",
+      "source": "outputs/SmartSchoolbagApp/android/settings.gradle.kts",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/ios/.gitignore",
+      "sha256": "e85b4db8ba6ed14708e5f7d3c60336e5a3067ce11329b84aa8ba5d98603ee253",
+      "source": "outputs/SmartSchoolbagApp/ios/.gitignore",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/ios/Flutter/AppFrameworkInfo.plist",
+      "sha256": "e51cfa76fca1ae586244b43bf97423577315d2906394c1e7768ef43b8d23e161",
+      "source": "outputs/SmartSchoolbagApp/ios/Flutter/AppFrameworkInfo.plist",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/ios/Flutter/Debug.xcconfig",
+      "sha256": "c0d1da54718e75f2028962b689258ecc741abf7cdaed50483aa5225264d0a7d7",
+      "source": "outputs/SmartSchoolbagApp/ios/Flutter/Debug.xcconfig",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/ios/Flutter/Release.xcconfig",
+      "sha256": "c0d1da54718e75f2028962b689258ecc741abf7cdaed50483aa5225264d0a7d7",
+      "source": "outputs/SmartSchoolbagApp/ios/Flutter/Release.xcconfig",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/ios/Runner/AppDelegate.swift",
+      "sha256": "54a5e98d6c3e8a79413ad50607b83aac8ded8828bc913eda1fe86bb33a66cd5d",
+      "source": "outputs/SmartSchoolbagApp/ios/Runner/AppDelegate.swift",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json",
+      "sha256": "5f8b941b774bde4496d73347c1f79cbdd786bb76fbdab9ed1f3f0cb78a0fb0d3",
+      "source": "outputs/SmartSchoolbagApp/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png",
+      "sha256": "7770183009e914112de7d8ef1d235a6a30c5834424858e0d2f8253f6b8d31926",
+      "source": "outputs/SmartSchoolbagApp/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png",
+      "sha256": "cab10a0d391ec5bc09ef50ce49e8ad401cee7ef03707ec0923a222c5c2b3d212",
+      "source": "outputs/SmartSchoolbagApp/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png",
+      "sha256": "b9ad02cf6576a04d1b6806ac02a2431481b448dd0c2e505ce25842d1f7c4730b",
+      "source": "outputs/SmartSchoolbagApp/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png",
+      "sha256": "c6e6d3b215ae744a9c391f4c4d44157eff5e739d6ad6c39f9bfa5df66dddd267",
+      "source": "outputs/SmartSchoolbagApp/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png",
+      "sha256": "5dee24dc104ac76dc162e42ae0beb163d426bf365562ee28ba7b3ad368559a60",
+      "source": "outputs/SmartSchoolbagApp/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png",
+      "sha256": "a9b21eb6f4271385655a8771f76e29eef8c1107d7879cbcfc567e6619d1f716a",
+      "source": "outputs/SmartSchoolbagApp/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png",
+      "sha256": "e677d701ffe4af7bc2935098d6b3984cc9ab7ace573e6900955a5535b12410cf",
+      "source": "outputs/SmartSchoolbagApp/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png",
+      "sha256": "b9ad02cf6576a04d1b6806ac02a2431481b448dd0c2e505ce25842d1f7c4730b",
+      "source": "outputs/SmartSchoolbagApp/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png",
+      "sha256": "7c61c42fc7b657d9cf314d32a4ec458f0647c3aaf360be1b9377857266ec2499",
+      "source": "outputs/SmartSchoolbagApp/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png",
+      "sha256": "19be171481dc71a0b2803ebcd01dd8b0c5fd5778dee34c0a3cabc948c225f24e",
+      "source": "outputs/SmartSchoolbagApp/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png",
+      "sha256": "19be171481dc71a0b2803ebcd01dd8b0c5fd5778dee34c0a3cabc948c225f24e",
+      "source": "outputs/SmartSchoolbagApp/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png",
+      "sha256": "4209a49e44a92ec40a327d3455eb1b1c153ee83d75de1c2be0a12ab18b2ff9de",
+      "source": "outputs/SmartSchoolbagApp/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png",
+      "sha256": "836c918cb613249eba0483a6b02fa3df3c1c0a89a315ee4d3b88509b83c7ab73",
+      "source": "outputs/SmartSchoolbagApp/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png",
+      "sha256": "41c7d42f6e61f8fe7f30b1ffa2256aecbc9682be06d18c4a3062043e1a2e547c",
+      "source": "outputs/SmartSchoolbagApp/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png",
+      "sha256": "5d7e5bdf01b93802bc973345b3a78c038907147625035952a08a115a563b7f81",
+      "source": "outputs/SmartSchoolbagApp/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json",
+      "sha256": "fbd112a9f3b541a1d811f71ac8e4fe68b6176687d973a5f4d99b7aa4a722e94e",
+      "source": "outputs/SmartSchoolbagApp/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png",
+      "sha256": "93ae7d494fad0fb30cbf3ae746a39c4bc7a0f8bbf87fbb587a3f3c01f3c5ce20",
+      "source": "outputs/SmartSchoolbagApp/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png",
+      "sha256": "93ae7d494fad0fb30cbf3ae746a39c4bc7a0f8bbf87fbb587a3f3c01f3c5ce20",
+      "source": "outputs/SmartSchoolbagApp/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png",
+      "sha256": "93ae7d494fad0fb30cbf3ae746a39c4bc7a0f8bbf87fbb587a3f3c01f3c5ce20",
+      "source": "outputs/SmartSchoolbagApp/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md",
+      "sha256": "4d6c1af485040591f5009ea7f13d4eb8442dd26d8f8f7ff8bd860ef2d23956fd",
+      "source": "outputs/SmartSchoolbagApp/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md",
+      "identical_to_source": false,
+      "original_sha256": "853ac958e2416fe2540f6f61165283a3618b71a7ba5f85f65ac41c2158dfcd21",
+      "change_reason": "Public handoff: remove embedded Wi-Fi password/logging; phone instructions; Dart braces lint fix."
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/ios/Runner/Base.lproj/LaunchScreen.storyboard",
+      "sha256": "bc3644fbb251ff1e18de25a4932c927850ae1a025be3dd1447940429633fe4b2",
+      "source": "outputs/SmartSchoolbagApp/ios/Runner/Base.lproj/LaunchScreen.storyboard",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/ios/Runner/Base.lproj/Main.storyboard",
+      "sha256": "dcea4686c02065e56217fd19fcfb73d7509b41872e7486126149d47a18559363",
+      "source": "outputs/SmartSchoolbagApp/ios/Runner/Base.lproj/Main.storyboard",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/ios/Runner/GeneratedPluginRegistrant.h",
+      "sha256": "a5f88cc6415d2e639d2cb549348b84e02a7fdd0261603b0063abef6fa11f075a",
+      "source": "outputs/SmartSchoolbagApp/ios/Runner/GeneratedPluginRegistrant.h",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/ios/Runner/GeneratedPluginRegistrant.m",
+      "sha256": "7ed2ce935a0d3e3e1daf95742c3962d3e0cc88d84568e72975eff717ea04d789",
+      "source": "outputs/SmartSchoolbagApp/ios/Runner/GeneratedPluginRegistrant.m",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/ios/Runner/Info.plist",
+      "sha256": "01af08324b2a050dfa94dc9d45e7008d475f0a59211b4a52d2d2be2a31b19721",
+      "source": "outputs/SmartSchoolbagApp/ios/Runner/Info.plist",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/ios/Runner/Runner-Bridging-Header.h",
+      "sha256": "efe657d8b27f7f8595a0d416bffb33fe7d93bd2869d81f7353b556c439d7a1a7",
+      "source": "outputs/SmartSchoolbagApp/ios/Runner/Runner-Bridging-Header.h",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/ios/Runner/SceneDelegate.swift",
+      "sha256": "edce811c671ca0a6ccb14753e14e16deb0d89a0adf4f1b685e362d87d8f4c366",
+      "source": "outputs/SmartSchoolbagApp/ios/Runner/SceneDelegate.swift",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/ios/Runner.xcodeproj/project.pbxproj",
+      "sha256": "0d987e0a117864b423beeb6d5f238a05ee90203c23c29251412070cfecdfbbe0",
+      "source": "outputs/SmartSchoolbagApp/ios/Runner.xcodeproj/project.pbxproj",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata",
+      "sha256": "ac28b35c2b940210bec0fff8e424b07fd0efe9112ab178a10533583f251a386c",
+      "source": "outputs/SmartSchoolbagApp/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist",
+      "sha256": "d557c2c32fc6258ec28981fa45dc847b76c9968beb90a2e26d13ef9c4ea45c30",
+      "source": "outputs/SmartSchoolbagApp/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings",
+      "sha256": "dd64c0308ab2971c456871b990b24a008bdc3ece09833e8dbe9675e33a496e74",
+      "source": "outputs/SmartSchoolbagApp/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme",
+      "sha256": "570c49fd61c67330efb75097018d1b0df0c68d03667631105a5acf5621112b1b",
+      "source": "outputs/SmartSchoolbagApp/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/ios/Runner.xcworkspace/contents.xcworkspacedata",
+      "sha256": "706a4c812f2a1e220e6785c27580020d58048e2ae4d30d1280f3c43344ce6b38",
+      "source": "outputs/SmartSchoolbagApp/ios/Runner.xcworkspace/contents.xcworkspacedata",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist",
+      "sha256": "d557c2c32fc6258ec28981fa45dc847b76c9968beb90a2e26d13ef9c4ea45c30",
+      "source": "outputs/SmartSchoolbagApp/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings",
+      "sha256": "dd64c0308ab2971c456871b990b24a008bdc3ece09833e8dbe9675e33a496e74",
+      "source": "outputs/SmartSchoolbagApp/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/ios/RunnerTests/RunnerTests.swift",
+      "sha256": "c0e04141287eb7f9c9f3d31cf5be8cb626a9ea71351206c9121578e8b8f480c3",
+      "source": "outputs/SmartSchoolbagApp/ios/RunnerTests/RunnerTests.swift",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/lib/main.dart",
+      "sha256": "1d9a1207b86301665c5e8063a09a435015438846aa7c6db3b07c70506ffa799b",
+      "source": "outputs/SmartSchoolbagApp/lib/main.dart",
+      "identical_to_source": false,
+      "original_sha256": "1e076141b6b142ffeea8c5c79bb95b7319e639ae1a12c0b0e40a28fb5b9ef571",
+      "change_reason": "Public handoff: remove embedded Wi-Fi password/logging; phone instructions; Dart braces lint fix."
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/pubspec.lock",
+      "sha256": "26ad0f7ae86c2a1ecf0403a28c86da87c06a02ba781cc15301de04db871c3321",
+      "source": "outputs/SmartSchoolbagApp/pubspec.lock",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/pubspec.yaml",
+      "sha256": "a7b99e8ce39fad04207625b7e88888205efcbe329cd79ab6e0a5b0aac88536fa",
+      "source": "outputs/SmartSchoolbagApp/pubspec.yaml",
+      "identical_to_source": true
+    },
+    {
+      "path": "mobile/SmartSchoolbagApp/test/weekly_items_test.dart",
+      "sha256": "3af66f9f068277776a4cb8e2ccc7fffb8d75548fd86e31f69a0230229f44bde7",
+      "source": "outputs/SmartSchoolbagApp/test/weekly_items_test.dart",
+      "identical_to_source": true
+    }
+  ],
+  "notes": "Source baseline v1.5.0; two source files intentionally sanitized for public handoff. LocalWifiConfig.h is private and excluded."
+}
